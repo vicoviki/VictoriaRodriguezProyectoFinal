@@ -1,0 +1,14 @@
+#botonera{
+	background-color: map-get($map:$colores,$key:'colorNav');
+	opacity: 0.9;
+	font-family:$secondariFonts;
+	a{
+		color: map-get($map:$colores,$key:'colorA');
+		font-family:$secondariFonts;
+		font-size:$textLi;
+		margin-left: 2rem;
+		&:hover{
+			color:map-get($map:$colores,$key:'colorWhite');
+		}	
+	}
+}

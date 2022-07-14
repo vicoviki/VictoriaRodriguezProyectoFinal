@@ -1,0 +1,22 @@
+// variables
+$bg-card:#CFCECE; 
+
+
+
+//maps
+$colores:(
+'colorFondo':#55828B !important,
+'colorNav': #03525B,
+'colorA':#87BBA2,
+'colorTitulo': #E9E3E3,
+'colorWhite':white,
+'colorBoton':#054A7B,
+);
+
+//mixin
+@mixin texto ($font,$color,$style){
+ font-family:$font;
+ color:$color;
+ font-style: $style;
+}
+

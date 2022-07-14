@@ -1,0 +1,78 @@
+//         pagina inicio    //
+
+.bg-body{
+	background-color:map-get($map:$colores,$key:colorFondo);
+}
+
+h1,h2{
+	@include texto ($mainFonts,map-get($map:$colores,$key:'colorTitulo'),none);
+	
+}	
+ .carousel-inner {
+  max-height: 455px;
+	 	
+}
+.encabezado{
+	font-size: $textP;
+	margin: 3rem 4rem;
+}
+
+.bg-footer{
+	background-color:map-get($map:$colores,$key:'colorNav');
+		.text-pie{
+			@include texto($mainFonts,map-get($map:$colores,$key:'colorA'),none);
+		}
+}
+ 
+main{
+ 	img.zoom{
+ 		@media screen and (min-width:1024px){
+			&:hover{
+			transform: scale(1.1);
+				}
+ 		}
+ 	}
+} 
+section{
+	div{
+		article{
+		 margin-bottom: 4rem;
+		}
+	}
+}
+
+// pagina productos //
+
+.card {
+  background-color: $bg-card;
+  .img-card{
+  	height: 450px;
+  	object-fit: cover;
+  	}
+  	.card-title{
+  		font-family: $mainFonts;
+  	}
+}
+
+
+.btn {
+   &:hover {
+   color:map-get($map:$colores,$key:'colorA');
+  } 
+}
+.btn-color{
+	@extend .btn;
+	border-radius: 50px;
+	background-color:map-get($map:$colores,$key:'colorBoton'); 
+	color: white;
+	width: 90%;
+	justify-content: center;
+	}
+
+
+// pagina promociones
+
+.animacion{
+	width: 90%;
+	margin-bottom: 1.5rem;
+}

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm     run build-css\"",
-    "build":"purgecss --css css/style.css --content index.html -o css/reducido.css"
+    "build":"purgecss --css css/style.css --content index.html paginas/productos.html paginas/promociones.html paginas/contacto.html paginas/conocenos.html -o css/reducido.css"
   },
   "author": "",
   "license": "ISC",

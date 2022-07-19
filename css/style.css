@@ -7879,9 +7879,24 @@ section div article {
   width: 90%;
   justify-content: center; }
 
+.height {
+  height: 40rem; }
+
+.imgPromo {
+  height: 450px; }
+
+.formulario {
+  margin-left: 80px;
+  width: 80%; }
+
 .animacion {
-  width: 90%;
+  width: 85%;
   margin-bottom: 1.5rem; }
+
+.maps {
+  margin-top: 2rem;
+  width: 100%;
+  height: 450px; }
 
 #botonera {
   background-color: #03525B;

@@ -17,18 +17,18 @@ h1,h2{
 	margin: 3rem 4rem;
 }
 
-footer{
-
-}
 .bg-footer{
 	background-color:map-get($map:$colores,$key:'colorNav');
 		.text-pie{
+		margin-left: 1.5rem;
 		@include texto($mainFonts,map-get($map:$colores,$key:'colorA'),none);
 		}
 }
- 
+
+
 main{
  	img.zoom{
+
  		@media screen and (min-width:1024px){
 			&:hover{
 			transform: scale(1.1);
@@ -38,12 +38,18 @@ main{
 } 
 section{
 	div{
+		justify-content: center;
 		article{
 		 margin-bottom: 4rem;
 		}
 	}
 }
-
+ footer{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	align-items: center;
+ }
+ 
 // pagina productos //
 
 .card {
@@ -76,12 +82,13 @@ section{
 // pagina promociones
 
 .height{
-	height: 40rem;
+	height: 45rem;
 }
 
 .imgPromo{
 			height: 450px;
 }
+
 
 // pagina contacto 
 

@@ -7850,6 +7850,7 @@ h1, .h1, h2, .h2 {
 .bg-footer {
   background-color: #03525B; }
   .bg-footer .text-pie {
+    margin-left: 1.5rem;
     font-family: "Ubuntu", sans-serif;
     color: #87BBA2;
     font-style: none; }
@@ -7858,8 +7859,15 @@ h1, .h1, h2, .h2 {
   main img.zoom:hover {
     transform: scale(1.1); } }
 
-section div article {
-  margin-bottom: 4rem; }
+section div {
+  justify-content: center; }
+  section div article {
+    margin-bottom: 4rem; }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
 .card {
   background-color: #CFCECE; }
@@ -7880,7 +7888,7 @@ section div article {
   justify-content: center; }
 
 .height {
-  height: 40rem; }
+  height: 45rem; }
 
 .imgPromo {
   height: 450px; }

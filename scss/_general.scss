@@ -17,13 +17,7 @@ h1,h2{
 	margin: 3rem 4rem;
 }
 
-.bg-footer{
-	background-color:map-get($map:$colores,$key:'colorNav');
-		.text-pie{
-		margin-left: 1.5rem;
-		@include texto($mainFonts,map-get($map:$colores,$key:'colorA'),none);
-		}
-}
+
 
 
 main{
@@ -44,11 +38,31 @@ section{
 		}
 	}
 }
- footer{
- 	display: flex;
- 	justify-content: space-evenly;
- 	align-items: center;
- }
+
+.animacion-lucas{
+	height: 581px;
+	margin-bottom: 2rem;
+}
+	.bg-footer{
+		background-color:map-get($map:$colores,$key:'colorNav');
+	}		
+		.text-pie{
+			margin-left: 1.5rem;
+			@include texto($mainFonts,map-get($map:$colores,$key:'colorA'),none);		
+		}		
+			.logo-footer{
+				width: 70px;
+			}		
+				footer img{
+ 					margin-top: 1.5rem;
+ 					margin-bottom: 1.5rem;
+ 					margin-left: 1.5rem;
+ 					width: 30px;
+ 				}	
+			
+		
+ 			
+
  
 // pagina productos //
 
@@ -81,26 +95,38 @@ section{
 
 // pagina promociones
 
-.height{
-	height: 45rem;
-}
+.card-promo{
+	@include card-promo (center,center);
 
-.imgPromo{
-			height: 450px;
+}
+.img-promo{
+	width: 436px;
+}
+.width{
+	width: 60%;
 }
 
 
 // pagina contacto 
 
+
 .formulario{
-	margin-left: 80px;
-	width: 80%;
+	margin-top: 1.5rem;
+
+	@media screen and (min-width:720px){
+ 	margin-left: 80px;
+ 	width: 85%;
+ 
+  }
 }
 .animacion{
 	width: 85%;
 	margin-bottom: 1.5rem;
+	margin-right: 80px;
+	@media screen and (max-width:767px){
+		margin-right:0;
 	}
-
+}
 //pagina conocenos
 
 .maps{
@@ -108,3 +134,10 @@ section{
 	width: 100%;
 	height: 450px;
 }	
+
+//pagina 404 //
+.logo{
+	
+	width: 70px;
+
+}

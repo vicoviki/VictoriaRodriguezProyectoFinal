@@ -19,4 +19,8 @@ $colores:(
  color:$color;
  font-style: $style;
 }
-
+ 
+@mixin card-promo ($justify,$aling){
+    justify-content:$justify;
+    align-items:$aling;
+}

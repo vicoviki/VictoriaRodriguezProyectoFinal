@@ -7858,7 +7858,8 @@ section div {
 
 .animacion-lucas {
   height: 581px;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  object-fit: cover; }
 
 .bg-footer {
   background-color: #03525B; }

@@ -42,6 +42,7 @@ section{
 .animacion-lucas{
 	height: 581px;
 	margin-bottom: 2rem;
+	object-fit: cover;
 }
 	.bg-footer{
 		background-color:map-get($map:$colores,$key:'colorNav');

@@ -2,6 +2,7 @@
 
 .bg-body{
 	background-color:map-get($map:$colores,$key:colorFondo);
+	overflow: hidden;
 }
 
 h1,h2{
@@ -38,7 +39,9 @@ section{
 		}
 	}
 }
-
+.portada{
+	padding: 0px;
+}
 .animacion-lucas{
 	height: 581px;
 	margin-bottom: 2rem;
